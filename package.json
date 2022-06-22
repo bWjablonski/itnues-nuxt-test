@@ -1,0 +1,36 @@
+{
+  "name": "itunes_nuxt_test",
+  "version": "1.0.0",
+  "description": "itunes_nuxt_test",
+  "author": "Bart Jablonski <bart@bjablonski.eu>",
+  "scripts": {
+    "build": "nuxt build",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "precommit": "npm run lint",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "^7.2.2",
+    "axios": "^0.*.*",
+    "nuxt": "2.*.*",
+    "vuetify-loader": "^1.7.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.3",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  }
+}
